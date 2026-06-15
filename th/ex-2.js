@@ -6,8 +6,17 @@
     - เมื่อ Algorithm นี้ทำงาน จะต้องเห็นผลลัพธ์ด้านล่าง
 */
 
+// .split
+// .reverse
+// . join
+// .toLowerCase
 // Start coding here
-
+function reverseText(text) {
+    return text.split('')
+               .reverse()
+               .join('')
+               .toLowerCase();
+}
 let text1 = "Techup";
 console.log(reverseText(text1)); // puhcet
 
